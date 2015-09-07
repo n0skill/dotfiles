@@ -30,6 +30,8 @@ cp .zshrc ~/.zshrc
 cp lemonbar/* ~/.config/lemonbar
 cp .vim/colors/solarized.vim ~/.vim/colors/solarized.vim
 cp .config/bspwm/* ~/.config/bspwm/
-echo "Wallpaper image should be at ~/images/wp.png"
 sudo cp profile /etc/profile
 
+# Make sure correct rights are applied
+sudo chmod +x ~/.config/lemonbar/panel
+sudo chmod +x ~/.config/lemonbar/panel_bar
