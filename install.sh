@@ -15,6 +15,7 @@ yaourt bspwm
 yaourt oh-my-zsh
 yaourt lemonbar-git
 yaourt urxvt
+yaourt xflux
 
 
 # Move the dotfiles to the correct folders
@@ -29,6 +30,6 @@ cp .zshrc ~/.zshrc
 cp lemonbar/* ~/.config/lemonbar
 cp .vim/colors/solarized.vim ~/.vim/colors/solarized.vim
 cp .config/bspwm/* ~/.config/bspwm/
-echo "Wallpaper image should be at ~/Images/wp.png"
+echo "Wallpaper image should be at ~/images/wp.png"
 sudo cp profile /etc/profile
 
