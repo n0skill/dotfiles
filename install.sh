@@ -35,3 +35,4 @@ sudo cp profile /etc/profile
 # Make sure correct rights are applied
 sudo chmod +x ~/.config/lemonbar/panel
 sudo chmod +x ~/.config/lemonbar/panel_bar
+sudo chmod +x /etc/profile

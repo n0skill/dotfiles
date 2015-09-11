@@ -1,4 +1,4 @@
 #xfce4-panel &
-hsetroot -fill ~/images/wp.png &
 xflux -l 46.5 -g 6.63 -k 3200 &
 panel & 
+hsetroot -fill ~/images/wp.png &
