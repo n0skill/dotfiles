@@ -28,6 +28,14 @@ do
     ln -s $f "$HOME/.vim/${f##*/}"
 done
 
+# Link dotfiles in .irssi directory
+for f in ~/dotfiles/files/irssi/*
+do
+    echo "$f"
+    ln -s $f "$HOME/.irssi/${f##*/}"
+done
+
+
 # Install fonts
 mkdir dl
 cd dl
