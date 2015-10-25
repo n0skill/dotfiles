@@ -21,7 +21,7 @@
 #define S_violet        #6c71c4
 #define S_blue          #268bd2
 #define S_cyan          #2aa198
-#define S_green         #859900
+#define S_green         #6F8000
 
 !! black dark/light
 *color0:                S_base02
@@ -57,6 +57,6 @@
 
 URxvt.scrollBar:	false
 URxvt.transparent:	true
-URxvt.shading: 100
-URxvt*font: xft:Inconsolata:size=8
+URxvt.shading: 40
+font: xft:Inconsolata:size=8
 Xft.dpi: 138
