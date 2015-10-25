@@ -10,31 +10,26 @@ yaourt xflux
 # Create symlinks
 for f in ~/dotfiles/files/* 
 do
-    echo "Processing file $f"
     ln -s "$f" "$HOME/.${f##*/}"
 done
 
 # Link dotfiles in config subfolder
 for f in ~/dotfiles/files/config/*
 do
-    echo "$f"
     ln -s $f "$HOME/.config/${f##*/}"
 done
 
 # Link dotfiles in vim subfolder
 for f in ~/dotfiles/files/vim/*
 do
-    echo "$f"
     ln -s $f "$HOME/.vim/${f##*/}"
 done
 
 # Link dotfiles in .irssi directory
 for f in ~/dotfiles/files/irssi/*
 do
-    echo "$f"
     ln -s $f "$HOME/.irssi/${f##*/}"
 done
-
 
 # Install fonts
 mkdir dl
